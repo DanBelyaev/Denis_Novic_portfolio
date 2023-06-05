@@ -1,0 +1,173 @@
+/*GLOBAL RULES*/
+* {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    margin: 33px 250px 0px 250px;
+}
+
+
+
+/*NUM MENU*/
+.num_menu {
+    margin: 0px auto;
+    position: relative;
+    display: flex;
+}
+.numlink {
+    width: 20%;
+    text-align: center;
+    margin-bottom: 33px;
+    text-decoration: none;
+    color: #828282;
+    font-size: 14px;
+    white-space: nowrap;
+    font-weight: 700;
+
+}
+a:hover {
+    color: rgb(0, 0, 0);
+    transition: 0.3s linear;
+}
+
+
+
+/*NAME AND PROFESSION*/
+.name_prof {
+    display: flex;
+}
+.denis {
+    margin-top: 40px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    position: static;
+}
+.uiux {
+    margin-top: 100px;
+    position: relative;
+    left: 297px;
+}
+.img_avatar img {
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+}
+/*RADIOBUTTONS*/
+.radioholder {
+    display: inline-block;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: 15px;
+    margin-top: 40px;
+    transform: rotate(-90deg);
+    transform-origin: 100% 0%;
+}
+.radioholder_item {
+    display: inline-block;
+    color: #828282; 
+    font-weight: 700;
+    font-size: 14px;
+}
+.radioholder_item input[type=radio] {
+    display: none;
+}
+.radioholder_item label {
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+}
+.item1 {
+    border-right: 2px solid #000000;
+    padding-right: 4px;
+}
+.radioholder .item1 input[type=radio]:checked + label {
+    color: #000000;
+}
+
+.radioholder .item2 input[type=radio]:checked + label {
+    color: #000000;
+}
+
+
+/*ABOUT ME*/
+.minititle {
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 224px;
+    margin-bottom: 40px;
+}
+.aboutholder {
+    margin: 0px 200px 0px 200px;
+}
+.aboutcontent {
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+
+
+/*SKILLS*/
+.skillsholder {
+    text-align: center;
+}
+.skillsas {
+    margin-top: 70px;
+    font-weight: 500;
+}
+.pictures_of_skills {
+    display: flex;
+}
+.imgrogramm {
+    margin: 80px auto;
+    max-width: 140px;
+    height: auto;
+}
+/*PORTFOLIO*/
+.portfolioholder img {
+    display: flex;
+    width: 100%;
+}
+.linkholder {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.link_of_work1 {
+    color: #828282;
+}
+.link_of_work1:hover {
+    color: rgb(0, 0, 0);
+    transition: 0.3s linear;
+}
+/*CONTACTS*/
+.contacts_content {
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+}
+/*BUTTON*/
+#button1 {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 150px;
+    display: flex;
+    margin: 35px auto;
+    cursor:pointer;
+}
+.icons_contacts {
+    display: flex;
+    margin: 100px auto;
+}
+.footer {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 14px;
+}
